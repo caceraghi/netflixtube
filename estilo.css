@@ -1,10 +1,12 @@
+/* Estilos básicos para a página */
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #141414;
     color: white;
 }
 
+/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,14 +29,20 @@ header {
     font-size: 16px;
 }
 
-.videos-sessao {
+/* Estilo da seção de vídeos */
+.video-section {
     padding: 20px;
 }
 
-.video-grade {
+.video-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;    
+    gap: 20px;
 }
 
 .video h3 {
@@ -42,6 +50,7 @@ header {
     margin-top: 10px;
 }
 
+/* Estilos para o Modal de Login */
 .modal {
     display: none;
     position: fixed;
@@ -74,6 +83,7 @@ header {
     color: white;
 }
 
+/* Formulário de Login */
 form {
     display: flex;
     flex-direction: column;
